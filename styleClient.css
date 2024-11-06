@@ -1,0 +1,154 @@
+
+/* Encadrement principal avec ombre */
+.shadow-box {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+
+/* Titre principal */
+.city_service_tabs_text h3 {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Section des directions avec ombrage léger */
+.direction-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Titre des sections de direction */
+.direction-section h5 {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style pour les paragraphes */
+.city_service_tabs_text p,
+.direction-section p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Liste personnalisée */
+.city_about_link {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+/* Élément de liste */
+.city_about_link li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+/* Liens dans la liste */
+.city_about_link a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Style des icônes */
+.city_about_link i {
+    color: #007bff;
+    margin-right: 8px;
+}
+
+
+
+/* Style pour le bloc global */
+.drDocColumn {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet au survol pour l'élément principal */
+.drDocColumn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Style de l'icône */
+.icnWrap img {
+    max-width: 50px;
+    height: auto;
+}
+
+/* Texte descriptif */
+.descrWrap h2 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.descrWrap .fileSize {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Lien dans le texte */
+.text-lDark {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.text-lDark:hover {
+    text-decoration: underline;
+}
+
+/* Style du bouton */
+.btn-outline-light {
+    background-color: #f8f9fa;
+    color: #343a40;
+    border: 1px solid #343a40;
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Couleur du bouton au survol */
+.btn-outline-light:hover {
+    background-color: #343a40;
+    color: #ffffff;
+    border-color: #343a40;
+}
+
+/* Résponsive - Ajustement pour petites tailles */
+@media (max-width: 767px) {
+    .drDocColumn {
+        padding: 15px;
+    }
+
+    .descrWrap h2 {
+        font-size: 1rem;
+    }
+
+    .btn-outline-light {
+        font-size: 0.8rem;
+    }
+}

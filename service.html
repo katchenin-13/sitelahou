@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+<head>
+    <!-- set the encoding of your site -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- set the page title -->
+    <title>EGovt - City Government HTML Template</title>
+    <!-- inlcude google nunito sans font cdn link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&amp;display=swap"
+        rel="stylesheet">
+    <!-- inlcude google cabin font cdn link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+        rel="stylesheet">
+    <!-- include the site bootstrap stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- include the site stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- include theme color setting stylesheet -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- include the site responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- include the rtl version stylesheet -->
+    <link rel="stylesheet" href="css/rtl.css" />
+</head>
+
+<body>
+    <!-- pageWrapper -->
+    <div id="pageWrapper" class="ltr">
+        <!-- phStickyWrap -->
+        <div class="phStickyWrap">
+            <!-- pageHeader -->
+            <header id="pageHeader" class="bg-white">
+                <div class="hdTopBar py-2 py-xl-3 bg-dark d-none d-md-block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-8">
+                                <ul class="list-unstyled hdScheduleList mb-0 d-flex flex-wrap align-items-center">
+                                    <li>
+                                        <a href="tel:18001234567">
+                                            <i class="icomoon-telRcv align-middle icn"><span
+                                                    class="sr-only">icon</span></i>
+                                            Call on: 1800 123 4567
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <time datetime="2011-01-12">
+                                            <i class="icomoon-clock align-middle icn"><span
+                                                    class="sr-only">icon</span></i>
+                                            Open Hours: Mon - Fri 8.00 am - 6.00 pm
+                                        </time>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <ul class="list-unstyled hdAlterLinksList d-flex justify-content-end flex-wrap mb-0">
+                                    <li>
+                                        <a href="javascript:void(0);">Council</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">Vacancies</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">Complaints</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="hdFixerWrap py-2 py-md-3 py-xl-5 sSticky bg-white">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light p-0">
+                        <div class="logo flex-shrink-0 mr-3 mr-xl-8 mr-xlwd-16">
+                            <a href="home.html">
+                                <img src="images/logo.png" class="img-fluid" alt="egovt" />
+                            </a>
+                        </div>
+                        <div class="hdNavWrap flex-grow-1 d-flex align-items-center justify-content-end justify-content-lg-start">
+                            <div class="collapse navbar-collapse pageMainNavCollapse mt-2 mt-md-0" id="pageMainNavCollapse">
+            
+            
+                                <ul class="navbar-nav mainNavigation">
+                                    <li class="nav-item dropdown ddohOpener">
+                                        <a class="nav-link dropdown-toggle dropIcn" href="javascript:void(0);"
+                                            onclick="home('home.html')" id="navbarDropdown" data-toggle="dropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                                        <div class="dropdown-menu hdMainDropdown desktopDropOnHover">
+                                            <ul class="list-unstyled mb-0 hdDropdownList">
+                                                <li>
+                                                    <a class="dropdown-item" href="mot-du-maire.html">Mot du maire</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="communiques-officiels.html">Communiqués
+                                                        Officiels</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="agenda-evenements.html">Agenda
+                                                        des Événements</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="festivals-traditions.html">Festivals et
+                                                        Traditions
+                                                        Locales</a>
+                                                </li>
+            
+                                            </ul>
+                                        </div>
+                                    </li>
+            
+                                    <li class="nav-item dropdown ddohOpener">
+                                        <a class="nav-link dropdown-toggle dropIcn" href="javascript:void(0);"
+                                            onabort="home('actes-etat-civil.html')" role="button" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">Services</a>
+                                        <div class="dropdown-menu hdMainDropdown desktopDropOnHover">
+                                            <ul class="list-unstyled mb-0 hdDropdownList">
+                                                <li>
+                                                    <a class="dropdown-item" href="actes-etat-civil.html">Actes
+                                                        d’État Civil (naissance, mariage,
+                                                        décès)</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="permis-autorisations.html">Permis
+                                                        et Autorisations (permis de
+                                                        construire, licence de commerce)</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="paiement-taxes.html">Paiement des
+                                                        Taxes et Impôts Locaux</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="prise-rendez-vous.html">Prise de
+                                                        Rendez-vous en Ligne</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+            
+                                    <li class="nav-item dropdown ddohOpener">
+                                        <a class="nav-link dropdown-toggle dropIcn" href="javascript:void(0);" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">À Propos</a>
+                                        <div class="dropdown-menu hdMainDropdown desktopDropOnHover">
+                                            <ul class="list-unstyled mb-0 hdDropdownList">
+                                                <li>
+                                                    <a class="dropdown-item" href="historique-ville.html">Historique
+                                                        de la Ville</a>
+                                                </li>
+            
+                                                <li class="dropdown-submenu">
+                                                    <a href="javascript:void(0);" class="dropdown-item dropdown-toggle dropIcn"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">Conseil Municipal</a>
+                                                    <div class="dropdown-menu hdMainDropdown desktopDropOnHover">
+                                                        <ul class="list-unstyled mb-0 hdDropdownList">
+                                                            <li>
+                                                                <a class="dropdown-item" href="maire.html">Le Maire</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="dropdown-item" href="adjoints.html">Les adjoints</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="dropdown-item" href="conseils.html">Les conseils</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="dropdown-item" href="organigramme.html">L'organigramme</a>
+                                                            </li>
+            
+            
+            
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="organigramme-services.html">Organigramme et
+                                                        Services</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="projets-municipaux.html">Projets
+                                                        Municipaux en Cours</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="document.html">Documents Officiels et
+                                                        Rapports</a>
+                                                </li>
+            
+            
+            
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    </li>
+            
+                                    <li class="nav-item dropdown ddohOpener">
+                                        <a class="nav-link dropdown-toggle dropIcn" href="javascript:void(0);" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actualités</a>
+                                        <div class="dropdown-menu hdMainDropdown desktopDropOnHover">
+                                            <ul class="list-unstyled mb-0 hdDropdownList">
+                                                <li>
+                                                    <a class="dropdown-item" href="dernieres-actualites.html"> Actualités</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="communiques-officiels.html">Communiqués </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="agenda-evenements.html">Agenda
+                                                        des Événements</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="festivals-traditions.html">Festivals et
+                                                        Traditions
+                                                        Locales</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+            
+                                    <li class="nav-item dropdown ddohOpener">
+                                        <a class="nav-link dropdown-toggle dropIcn" href="javascript:void(0);" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tourisme et
+                                            Patrimoine</a>
+                                        <div class="dropdown-menu hdMainDropdown desktopDropOnHover">
+                                            <ul class="list-unstyled mb-0 hdDropdownList">
+                                                <li>
+                                                    <a class="dropdown-item" href="sites-touristiques.html">Sites
+                                                        Touristiques (plages, lagunes, sites
+                                                        historiques)</a>
+                                                </li>
+                                                <li class="dropdown-submenu">
+                                                    <a href="javascript:void(0);" class="dropdown-item dropdown-toggle dropIcn"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">Sites Touristiques et logements</a>
+                                                    <div class="dropdown-menu hdMainDropdown desktopDropOnHover">
+                                                        <ul class="list-unstyled mb-0 hdDropdownList">
+                                                            <li>
+                                                                <a class="dropdown-item" href="plages.html">Plages
+                                                                    et lagunes</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="dropdown-item"
+                                                                    href="hebergement-restauration.html">Hébergement
+                                                                    et Restauration</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="dropdown-item" href="guide-pratique-visiteurs.html">Guide
+                                                                    Pratique pour les Visiteurs</a>
+                                                            </li>
+            
+            
+            
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="dropdown-submenu">
+                                                    <a href="javascript:void(0);" class="dropdown-item dropdown-toggle dropIcn"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">Educations et Cultures Locales</a>
+                                                    <div class="dropdown-menu hdMainDropdown desktopDropOnHover">
+                                                        <ul class="list-unstyled mb-0 hdDropdownList">
+                                                            <li>
+                                                                <a class="dropdown-item" href="education-sante.html">Éducation et
+                                                                    Santé</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="dropdown-item" href="transport-mobilite.html">Transport et
+                                                                    Mobilité</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="dropdown-item"
+                                                                    href="associations-initiatives.html">Associations
+                                                                    et Initiatives
+                                                                    Locales</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="dropdown-item" href="infos-quartiers.html"> Quartiers et
+                                                                    Villages</a>
+                                                            </li>
+            
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="culture-traditions.html">Culture
+                                                        et Traditions Locales</a>
+                                                </li>
+            
+                                            </ul>
+                                        </div>
+                                    </li>
+            
+                                    <li class="nav-item dropdown ddohOpener">
+                                        <a class="nav-link dropdown-toggle dropIcn" href="javascript:void(0);" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
+                                        <div class="dropdown-menu hdMainDropdown desktopDropOnHover">
+                                            <ul class="list-unstyled mb-0 hdDropdownList">
+                                                <li>
+                                                    <a class="dropdown-item" href="formulaire-contact.html">Formulaire de
+                                                        Contact</a>
+                                                </li>
+                                                <li class="dropdown-submenu">
+                                                    <a href="javascript:void(0);" class="dropdown-item dropdown-toggle dropIcn"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">Espace Citoyen</a>
+                                                    <div class="dropdown-menu hdMainDropdown desktopDropOnHover">
+                                                        <ul class="list-unstyled mb-0 hdDropdownList">
+                                                            <li>
+                                                                <a class="dropdown-item" href="sondages-consultations.html">Sondages
+                                                                    et
+                                                                    Consultations</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="dropdown-item" href="boite-idees.html">Boîte à Idées</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="dropdown-item" href="faq.html">FAQ (Foire
+                                                                    Aux Questions)</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="dropdown-item" href="contact-numeros-urgence.html">Contact
+                                                                    et
+                                                                    Numéros d’Urgence</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+            
+                                                <li>
+                                                    <a class="dropdown-item" href="horaires-localisation.html">Horaires d’Ouverture
+                                                        et
+                                                        Localisation</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+            
+                        </div>
+                        <div class="hdRighterWrap d-flex align-items-center justify-content-end">
+                            <form action="#" class="hdSearchForm ml-3 ml-xl-6">
+                                <a class="hdSearchOpener" data-toggle="collapse" href="#hdSearchCollapse" role="button"
+                                    aria-expanded="false" aria-controls="hdSearchCollapse">
+                                    <i class="icomoon-search"><span class="sr-only">recherche</span></i>
+                                </a>
+                                <div class="collapse hdSearchCollapse d-block position-fixed" id="hdSearchCollapse">
+                                    <div class="d-flex w-100 h-100 align-items-center jusity-content-center">
+                                        <div class="container d-block text-center text-light">
+                                            <div class="row">
+                                                <div class="col-12 col-md-8 offset-md-2">
+                                                    <div class="input-group mb-3">
+                                                        <input type="search" class="form-control text-left"
+                                                            placeholder="Search&hellip;" />
+                                                        <div class="input-group-append">
+                                                            <button class="btn btn-secondary" type="button">
+                                                                Recherche
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mb-0">
+                                                        Recherches populaires :
+                                                        <br class="d-md-none" /><a href="javascript:void(0);">PSD
+                                                            moderne</a>,
+                                                        <a href="javascript:void(0);">Portfolio
+                                                            design</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="position-absolute rounded-circle bg-danger text-white btnClose d-flex align-items-center justify-content-center"
+                                        data-toggle="collapse" href="#hdSearchCollapse" role="button" aria-expanded="true"
+                                        aria-controls="hdSearchCollapse">
+                                        <i class="fas fa-times"><span class="sr-only">crecherche</span></i>
+                                    </a>
+                                </div>
+                            </form>
+                            <a href="formulaire-contact.html"
+                                class="btn btn-outline-secondary bdrWidthAlter ml-3 ml-xl-6 btnHd d-none d-lg-block text-capitalize position-relative border-0 p-0"
+                                data-hover="Signaler un problème">
+                                <span class="d-block btnText">Signaler un problème</span>
+                            </a>
+                            <button class="navbar-toggler pgNavOpener ml-2 bdrWidthAlter position-relative" type="button"
+                                data-toggle="collapse" data-target="#pageMainNavCollapse" aria-controls="pageMainNavCollapse"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            </header>
+        </div>
+        <main>
+            <header class="pageMainHead d-flex position-relative bgCover w-100 text-white"
+                style="background-image: url(images/img23.jpg);">
+                <div class="alignHolder d-flex w-100 align-items-center">
+                    <div class="align w-100 position-relative">
+                        <div class="container">
+                            <h1 class="text-white mb-2">Departments</h1>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb breadcrWhite rounded-0 border-0 p-0 fontAlter mb-0">
+                                    <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Departments</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="exploreDepartmentsBlock pt-8 pb-4 pt-md-10 pb-md-7 pb-lg-10 pt-lg-14 pt-xl-20">
+                <div class="container">
+                    <header class="headingHead text-center mb-8 mb-lg-13">
+                        <h2 class="mb-2">Explore Our Goverment <br>Departments</h2>
+                        <p>We are offering the following information's about us that what we actually.</p>
+                    </header>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-6 col-lg-4 d-sm-flex">
+                            <article
+                                class="egdColumn shadow bg-white position-relative w-100 mb-6 mb-lg-12 text-center mx-auto">
+                                <div class="imgHolder position-relative mb-5">
+                                    <img src="images/img24.jpg" class="img-fluid w-100" alt="image description">
+                                    <i
+                                        class="icomoon-ico11 position-absolute icnWrap rounded-circle d-flex align-items-center justify-content-center shadow"><span
+                                            class="sr-only">icon</span></i>
+                                </div>
+                                <div class="egdcCaption py-4 px-3 py-md-8 px-md-6">
+                                    <h3 class="fwMedium">Business &amp; Administration</h3>
+                                    <p>City employment issue opportunities are position descriptions are listed.</p>
+                                    <a href="departmentsSingle.html"
+                                        class="btn btn-outline-light btnNoOver d-block w-100 mt-7">Read More <i
+                                            class="fas btnBnoIcn fa-arrow-right mx-1"><span
+                                                class="sr-only">icon</span></i></a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 d-sm-flex">
+                            <article
+                                class="egdColumn shadow bg-white position-relative w-100 mb-6 mb-lg-12 text-center mx-auto">
+                                <div class="imgHolder position-relative mb-5">
+                                    <img src="images/img25.jpg" class="img-fluid w-100" alt="image description">
+                                    <i
+                                        class="icomoon-ico12 position-absolute icnWrap rounded-circle d-flex align-items-center justify-content-center shadow"><span
+                                            class="sr-only">icon</span></i>
+                                </div>
+                                <div class="egdcCaption py-4 px-3 py-md-8 px-md-6">
+                                    <h3 class="fwMedium">Finance and Economy</h3>
+                                    <p>We differentiate ourselves from all the other australian by the real factors.</p>
+                                    <a href="departmentsSingle.html"
+                                        class="btn btn-outline-light btnNoOver d-block w-100 mt-7">Read More <i
+                                            class="fas btnBnoIcn fa-arrow-right mx-1"><span
+                                                class="sr-only">icon</span></i></a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 d-sm-flex">
+                            <article
+                                class="egdColumn shadow bg-white position-relative w-100 mb-6 mb-lg-12 text-center mx-auto">
+                                <div class="imgHolder position-relative mb-5">
+                                    <img src="images/img26.jpg" class="img-fluid w-100" alt="image description">
+                                    <i
+                                        class="icomoon-ico13 position-absolute icnWrap rounded-circle d-flex align-items-center justify-content-center shadow"><span
+                                            class="sr-only">icon</span></i>
+                                </div>
+                                <div class="egdcCaption py-4 px-3 py-md-8 px-md-6">
+                                    <h3 class="fwMedium">Constution and Law</h3>
+                                    <p>City employment issue opportunities are position descriptions are listed.</p>
+                                    <a href="departmentsSingle.html"
+                                        class="btn btn-outline-light btnNoOver d-block w-100 mt-7">Read More <i
+                                            class="fas btnBnoIcn fa-arrow-right mx-1"><span
+                                                class="sr-only">icon</span></i></a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 d-sm-flex">
+                            <article
+                                class="egdColumn shadow bg-white position-relative w-100 mb-6 mb-lg-12 text-center mx-auto">
+                                <div class="imgHolder position-relative mb-5">
+                                    <img src="images/img27.jpg" class="img-fluid w-100" alt="image description">
+                                    <i
+                                        class="icomoon-ico14 position-absolute icnWrap rounded-circle d-flex align-items-center justify-content-center shadow"><span
+                                            class="sr-only">icon</span></i>
+                                </div>
+                                <div class="egdcCaption py-4 px-3 py-md-8 px-md-6">
+                                    <h3 class="fwMedium">Art and Culture</h3>
+                                    <p>City employment issue opportunities are position descriptions are listed.</p>
+                                    <a href="departmentsSingle.html"
+                                        class="btn btn-outline-light btnNoOver d-block w-100 mt-7">Read More <i
+                                            class="fas btnBnoIcn fa-arrow-right mx-1"><span
+                                                class="sr-only">icon</span></i></a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 d-sm-flex">
+                            <article
+                                class="egdColumn shadow bg-white position-relative w-100 mb-6 mb-lg-12 text-center mx-auto">
+                                <div class="imgHolder position-relative mb-5">
+                                    <img src="images/img28.jpg" class="img-fluid w-100" alt="image description">
+                                    <i
+                                        class="icomoon-ico15 position-absolute icnWrap rounded-circle d-flex align-items-center justify-content-center shadow"><span
+                                            class="sr-only">icon</span></i>
+                                </div>
+                                <div class="egdcCaption py-4 px-3 py-md-8 px-md-6">
+                                    <h3 class="fwMedium">Roads and Transport</h3>
+                                    <p>We differentiate ourselves from all the other australian by the real factors.</p>
+                                    <a href="departmentsSingle.html"
+                                        class="btn btn-outline-light btnNoOver d-block w-100 mt-7">Read More <i
+                                            class="fas btnBnoIcn fa-arrow-right mx-1"><span
+                                                class="sr-only">icon</span></i></a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 d-sm-flex">
+                            <article
+                                class="egdColumn shadow bg-white position-relative w-100 mb-6 mb-lg-12 text-center mx-auto">
+                                <div class="imgHolder position-relative mb-5">
+                                    <img src="images/img29.jpg" class="img-fluid w-100" alt="image description">
+                                    <i
+                                        class="icomoon-ico16 position-absolute icnWrap rounded-circle d-flex align-items-center justify-content-center shadow"><span
+                                            class="sr-only">icon</span></i>
+                                </div>
+                                <div class="egdcCaption py-4 px-3 py-md-8 px-md-6">
+                                    <h3 class="fwMedium">Housing and Land</h3>
+                                    <p>City employment issue opportunities are position descriptions are listed.</p>
+                                    <a href="departmentsSingle.html"
+                                        class="btn btn-outline-light btnNoOver d-block w-100 mt-7">Read More <i
+                                            class="fas btnBnoIcn fa-arrow-right mx-1"><span
+                                                class="sr-only">icon</span></i></a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 d-sm-flex">
+                            <article
+                                class="egdColumn shadow bg-white position-relative w-100 mb-6 mb-lg-12 text-center mx-auto">
+                                <div class="imgHolder position-relative mb-5">
+                                    <img src="images/img30.jpg" class="img-fluid w-100" alt="image description">
+                                    <i
+                                        class="icomoon-ico17 position-absolute icnWrap rounded-circle d-flex align-items-center justify-content-center shadow"><span
+                                            class="sr-only">icon</span></i>
+                                </div>
+                                <div class="egdcCaption py-4 px-3 py-md-8 px-md-6">
+                                    <h3 class="fwMedium">Park and Recreation</h3>
+                                    <p>City employment issue opportunities are position descriptions are listed.</p>
+                                    <a href="departmentsSingle.html"
+                                        class="btn btn-outline-light btnNoOver d-block w-100 mt-7">Read More <i
+                                            class="fas btnBnoIcn fa-arrow-right mx-1"><span
+                                                class="sr-only">icon</span></i></a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 d-sm-flex">
+                            <article
+                                class="egdColumn shadow bg-white position-relative w-100 mb-6 mb-lg-12 text-center mx-auto">
+                                <div class="imgHolder position-relative mb-5">
+                                    <img src="images/img31.jpg" class="img-fluid w-100" alt="image description">
+                                    <i
+                                        class="icomoon-ico18 position-absolute icnWrap rounded-circle d-flex align-items-center justify-content-center shadow"><span
+                                            class="sr-only">icon</span></i>
+                                </div>
+                                <div class="egdcCaption py-4 px-3 py-md-8 px-md-6">
+                                    <h3 class="fwMedium">Policing and Crime</h3>
+                                    <p>We differentiate ourselves from all the other australian by the real factors.</p>
+                                    <a href="departmentsSingle.html"
+                                        class="btn btn-outline-light btnNoOver d-block w-100 mt-7">Read More <i
+                                            class="fas btnBnoIcn fa-arrow-right mx-1"><span
+                                                class="sr-only">icon</span></i></a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 d-sm-flex">
+                            <article
+                                class="egdColumn shadow bg-white position-relative w-100 mb-6 mb-lg-12 text-center mx-auto">
+                                <div class="imgHolder position-relative mb-5">
+                                    <img src="images/img32.jpg" class="img-fluid w-100" alt="image description">
+                                    <i
+                                        class="icomoon-ico19 position-absolute icnWrap rounded-circle d-flex align-items-center justify-content-center shadow"><span
+                                            class="sr-only">icon</span></i>
+                                </div>
+                                <div class="egdcCaption py-4 px-3 py-md-8 px-md-6">
+                                    <h3 class="fwMedium">Agriculture and Food</h3>
+                                    <p>City employment issue opportunities are position descriptions are listed.</p>
+                                    <a href="departmentsSingle.html"
+                                        class="btn btn-outline-light btnNoOver d-block w-100 mt-7">Read More <i
+                                            class="fas btnBnoIcn fa-arrow-right mx-1"><span
+                                                class="sr-only">icon</span></i></a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- ftAreaWrap -->
+        <!-- ftAreaWrap -->
+        <div class="ftAreaWrap position-relative bg-gDark fontAlter">
+            <aside
+                class="subscribeNwsletterAside subNew_v2 bgTheme text-center position-relative pt-4 pb-3 pt-md-7 pb-md-7 overflow-hidden">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-3 col-xl-4 col-xlwd-5">
+                            <header
+                                class="headingHead text-center text-lg-left mb-6 mb-lg-0 d-flex justify-content-center justify-content-lg-start align-items-center">
+                                <span class="icnWrap flex-shrink-0 mr-5"><img src="images/img157.png" class="img-fluid"
+                                        alt="image description"></span>
+                                <h4 class="h2vii text-white mb-0 fwSemiBold text-left">Subscribe Newsletter</h4>
+                            </header>
+                        </div>
+                        <div class="col-12 col-lg-9 col-xl-8 col-xlwd-7">
+                            <form action="javascript:void(0);"
+                                class="subsNewsLettForm form-inline justify-content-center justify-content-lg-end">
+                                <input type="text" class="form-control mb-2 mb-sm-0 mr-sm-2" placeholder="Your Name">
+                                <input type="text" class="form-control mb-2 mb-sm-0 mr-sm-2" placeholder="Your Email">
+                                <button type="submit"
+                                    class="btn btn-dark btnSubmit fwSemiBold text-uppercase position-relative border-0 p-0 btnXsMinWidth"
+                                    data-hover="Subscribe">
+                                    <span class="d-block btnText">Subscribe</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <span class="bgCover bgImg position-absolute map" style="background-image: url(images/img156.jpg);"></span>
+            </aside>
+            <aside class="ftConnectAside pt-4 pb-3 pt-md-7 pb-md-7 text-center text-md-left">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-7">
+                            <nav class="ftcaNav mb-4 mb-lg-0">
+                                <ul class="list-unstyled d-flex flex-wrap mb-0 justify-content-center justify-content-lg-start">
+                                    <li>
+                                        <a href="about.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="eventsList.html">Events</a>
+                                    </li>
+                                    <li>
+                                        <a href="newsGridSmall.html">News</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact-1.html">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolioClassic.html">Portfolio</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <div
+                                class="ctConnectWrap d-sm-flex justify-content-sm-center justify-content-lg-end align-items-sm-center">
+                                <strong class="title flex-shrink-0 mb-1 font-weight-normal mr-sm-3 d-block">Connectez-vous
+                                    avec nous</strong>
+                                <ul
+                                    class="list-unstyled socialNetworks ftSocialNetworks d-flex flex-wrap justify-content-center justify-content-sm-end mb-0">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <i class="fab fa-facebook-square"><span class="sr-only">facebook</span></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <i class="fab fa-twitter"><span class="sr-only">twitter</span></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <i class="fab fa-instagram"><span class="sr-only">instagram</span></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <i class="fab fa-youtube"><span class="sr-only">youtube</span></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        
+            <!-- pageFooter -->
+            <footer id="pageFooter" class="text-center bg-dark pt-6 pb-3 pt-md-8 pb-md-5">
+                <div class="container">
+                    <p>
+                        <a href="javascript:void(0);">Appatam</a> -
+                        <a href="javascript:void(0);">Soro</a> &copy;
+                        2024. <br class="d-md-none" />Tous droits réservés
+                    </p>
+                </div>
+            </footer>
+        </div>
+        <div class="page-direction">
+            <div class="demo_rtl direction_switch">
+                <button class="dirBtn btnRtl">RTL</button>
+            </div>
+            <div class="demo_ltr direction_switch">
+                <button class="dirBtn btnLtr">LTR</button>
+            </div>
+        </div>
+    </div>
+    <!-- include jQuery library -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- include custom JavaScript -->
+    <script src="js/jqueryCustom.js"></script>
+    <!-- include plugins JavaScript -->
+    <script src="js/plugins.js"></script>
+    <!-- include fontAwesome -->
+    <script src="../../../kit.fontawesome.com/391f644c42.js"></script>
+</body>
+
+
+</html>
